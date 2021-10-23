@@ -3,8 +3,8 @@ obj-m := lab1_2.o
 KDIR := /home/iliyash/kernel_src/linux
 
 all:
-	cppcheck --enable=all --inconclusive --library=posix lab1_2.c
-	$(MAKE) -C $(KDIR) M=$$PWD
+	cppcheck --enable=all --inconclusive --library=posix lab1_2.c 
+	$(MAKE) -C $(KDIR) M=$$PWD 
 
 
 

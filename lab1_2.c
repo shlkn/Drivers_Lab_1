@@ -18,7 +18,9 @@ MODULE_PARM_DESC(howmany, "Number of greetings");
 
 static int __init hello_init(void)
 {
-	for (int i = 0; i < howmany; i++)
+	int i;
+
+	for (int = 0; i < howmany; i++)
 		pr_alert("(%d) Hello, %s\n", i, whom);
 	return 0;
 }
