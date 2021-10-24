@@ -20,7 +20,7 @@ static int __init hello_init(void)
 {
 	int i;
 
-	for (int = 0; i < howmany; i++)
+	for (i = 0; i < howmany; i++)
 		pr_alert("(%d) Hello, %s\n", i, whom);
 	return 0;
 }
